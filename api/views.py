@@ -13,4 +13,4 @@ class RiverViewSet(APIView):
     renderer_classes = (JSONRenderer, )
 
     def get(self, request, format=None):
-        return JsonResponse(coreapi.Client().get('http://riverbrain.com/api/v1/rivers'), safe=False)
+        return JsonResponse(coreapi.Client().get('https://json.org/example.html'), safe=False)
